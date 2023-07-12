@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,300;1,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: rgb(232, 237, 243);
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(228, 235, 244); */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* margin-left: 100px; */
+    background-color: white;
+    
+
+}
+
+nav .logo{
+    width: 50px;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    
+}
+
+/* pseudo class-to get special effect in mouse event
+        selector: pseudo-class-name{property:value}*/
+
+
+nav ul li a:hover{
+    color: rgb(76, 73, 73);
+}      
+
+.title{
+    margin-left: 60%;
+    margin-top: 10%;
+
+}
+.title h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    margin-top: 30%;
+}
+
+.title h2{
+    margin-bottom: 15px;
+    line-height: 18px;
+}
+
+.title p{
+    line-height: 18px;
+    font-family: cursive;
+}
+
+.title a{
+    background-color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 7px;
+}
+
+#img{
+    margin-left: 30%;
+    margin-top: -30%;
+    width: 250px;
+    border-radius: 50%;
+    /* clip-path: circle(); */
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(160, 120, 1);
+    /* margin: 10% auto; */
+    border-radius: 50%;
+    position: relative;
+    margin-left: 880px;
+    margin-top: 2%;
+}
+
+.content{
+    position: absolute;
+    width: inherit;
+    height: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    
+}
+
+.circle2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(161, 44, 2);
+    /* margin: 10% auto; */
+    border-radius: 50%;
+    position: relative;
+    margin-left: 70%;
+    margin-top: -7%;
+}
+
+.circle3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(36, 132, 107);
+    /* margin: 10% auto; */
+    border-radius: 50%;
+    position: relative;
+    margin-left: 80%;
+    margin-top: -7%;
+}
+
+
+.icon-div{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 22px;
+  
+  
+
+}
+
+.icon .text1{
+    display: flex;
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.icon-div :hover{
+            background-color: black;
+}
+
+.icon :hover{
+    /* background-color: white; */
+}
+
+#resume{
+    margin-right: 8%;
+    margin-top: -5%;
+    margin-left: 8%;
+    /* width: 100%;
+    height: 700px; */
+}
+.tt1{
+    margin-left: 10%;
+    margin-top: 15%;
+   
+}
+.tt1 h1{
+    font-size: 60px;
+}
+.tt1 h2{
+    /* margin-bottom: 40px; */
+    line-height: 800%;
+    font-size: 30px;
+    font-family: cursive;
+}
+.tt1 p{
+        margin-left: 400px;
+        margin-top: -130px;
+}
+#p1{
+    margin-left: 500px;
+    margin-top: -10px;
+    line-height: 18px;
+}
+.tt1 h3{
+    margin-left: 500px;
+    margin-top: -20px;
+    line-height: 18px;
+    margin-bottom: 30px;
+
+}
+
+.tt2 p{
+    margin-left: 520px;
+    margin-top: 80px;
+}
+
+#p2{
+    margin-left: 600px;
+    margin-top: -10px;
+    line-height: 18px;
+}
+.tt2 h3{
+    margin-left: 600px;
+    margin-top: -20px;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+
+.skill h1{
+    font-size: 30px;
+    font-family: cursive;
+    line-height: 800%;
+    margin-left: 60px;
+}
+
+.skill ul{
+    margin-left: 600px;
+    /* margin-bottom: 100px; */
+    line-height: 300%;
+    margin-top: -150px;
+    width: 100%;
+    
+}
+.prj{
+    margin-left: 10%;
+    margin-top: 15%; 
+    /* margin-right: 8%;
+    margin-top: -5%;
+    margin-left: 8%; */
+}
+.prj h1{
+    font-size: 60px;
+}
+.prj h3{
+    margin-top: 5%; 
+    font-family: cursive;
+}
+.prj p{
+    /* margin-left: 600px; */
+    /* margin-top: -10px; */
+    /* line-height: 18px; 
+    position: sticky;
+    top: 13px; */
+    width: 21%;
+    height: 550px;
+    /* border: 2px solid; */
+    /* float: left; */
+    margin: 20px;
+    margin-left: -1%;
+    line-height: 25px;
+    
+    
+    
+}
+#m1{
+    width: 400px;
+    height: 400px;
+    margin-left: 40%;
+    margin-top: -500%;
+    
+}
+
+.contact1{
+    position: relative;
+    min-height: 100vh;padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: url(./image/img2.png); */
+    /* background-size: cover; */
+}
+
+.contact1 .content1{
+          max-width: 800px;
+          text-align: center;
+
+}
+
+.contact1 .content1 h2{
+    font-size: 36px;
+    font-weight: 500;
+    color:black;
+
+}
+
+.contact1 .content1 p{
+    font-weight: 300;
+    color: brown;
+}
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.cont .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.cont .contactinfo .box .icn{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+
+}
+
+.cont .contactinfo .box .icn .text{
+    display: flex;
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.cont .contactinfo .box .icn .text h3{
+    font-weight: 500;
+    color: aquamarine;
+}
+
+.contactform{
+        width: 40%;
+        padding: 40px;
+        background: #fff;
+
+}
+
+.contactform h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+
+}
+
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+
+}
+
+.contactform .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span{
+    color: red;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactform .inputbox input[type="submit"]{
+    width: 100px;
+    background: lightslategray;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+/* @media (max-width:991px) */
+
+
+
+
+
+
+
+
+
+
+
